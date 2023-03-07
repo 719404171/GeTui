@@ -31,10 +31,18 @@ class GTPushRequest extends GTApiRequest
     private $tagList;
     //根据标签过滤用户并推送。支持定时、定速功能。用于使用标签快速推送
     private $fastCustomTag;
+    //设置TasKId。用于批量推送
+    private $taskId;
 
     public function getFastCustomTag()
     {
         return $this->fastCustomTag;
+    }
+
+    public function setTaskId($taskId)
+    {
+        $this->taskId = $taskId;
+        $this->apiParam["taskid"] = $taskId;
     }
 
     public function setFastCustomTag($fastCustomTag)
