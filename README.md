@@ -1,7 +1,5 @@
 欢迎使用[个推**PUSH** SDK For PHP](https://docs.getui.com/getui/server/rest_v2/introduction/)。
 
-测试
-
 `个推PUSH SDK For PHP`的主要目标是提升开发者在**服务端**集成个推推送服务的开发效率。
 开发者不需要进行复杂编程即可使用个推推送服务的各项常用功能，SDK可以自动帮您满足调用过程中所需的鉴权、组装参数、发送HTTP请求等非功能性要求。
 
